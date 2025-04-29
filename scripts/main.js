@@ -1,4 +1,4 @@
-import { animate, createDraggable, createSpring, createScope } from "./libraries/anime.esm.js";
+import { animate, createDraggable, createSpring, createScope } from "./libraries/anime.esm.js"; // YAY ESMODULES YAYYYYYYYYYYYYY
 let rotations = 0 // god i hate this
 
 function main() {
