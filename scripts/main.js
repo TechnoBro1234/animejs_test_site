@@ -7,7 +7,7 @@ function main() {
     animate(".logo", {
       rotate: rotations * 360,
       duration: 1500,
-      ease: 'outBounce',
+      ease: 'inOutQuint',
     });
   }
   function bounce() {
