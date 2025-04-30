@@ -20,7 +20,6 @@ function main() {
     });
   }
   function move() {
-    console.log($("input#move_slider").val())
     animate("#him", {
       translateX: ($("input#move_slider").val()/100)*(window.innerWidth-140),
       duration: 1000,
@@ -28,7 +27,6 @@ function main() {
     })
   }
   function change_sprite() {
-    console.log(`images/ticsy/${$("#sprite_dropdown").val()}.png`)
     $("#him").attr("src", `images/ticsy/${$("#sprite_dropdown").val()}.png`)
   }
   $("button#spin_button").click(spin)
