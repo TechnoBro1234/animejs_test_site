@@ -32,7 +32,7 @@ function main() {
   $("button#spin_button").click(spin)
   $("button#bounce_button").click(bounce)
   $("button#move_button").click(move)
-  $("#sprite_change_button").click(change_sprite)
+  $("#sprite_dropdown").change(change_sprite)
 }
 
 
