@@ -1,9 +1,11 @@
 import { animate, createDraggable, createSpring, createScope } from "./libraries/anime.esm.js"; // YAY ESMODULES YAYYYYYYYYYYYYY
+let rotations = 0 // fuck
 
 function main() {
   function spin() {
+    rotations++
     animate("#him", {
-      rotate: "+=360",
+      rotate: rotations*360,
       duration: 1500,
       ease: 'inOutQuint',
     });
